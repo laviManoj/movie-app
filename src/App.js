@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src=""></img>
       <h1 className="text-center">Movies List</h1>
       <div className="movie-cards">
         {movies.map((movie) => (
