@@ -13,7 +13,7 @@ function App() {
       .then((res) => {
         console.log("Movies data", res.data);
         setmovies(res.data);
-      })
+      })  
       .catch((err) => console.error(err));
   }, []);
 
